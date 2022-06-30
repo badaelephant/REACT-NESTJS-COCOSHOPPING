@@ -1,0 +1,16 @@
+{
+  "name": "coco-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run start:dev --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "cystmax@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
